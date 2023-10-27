@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adafood - Peça seu Adafood</title>
+  <meta name="description" content="Entregamos tudo o que precisa na porta da sua casa">
+  <link rel="shortcut icon" href="./assets/img/favicon.svg" type="image/x-icon">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.css" rel="stylesheet" />
+</head>
+
+<body>
+  <!-- HEADER -->
+  <header>
+    <nav class="bg-white dark:bg-gray-900 fixed w-full z-20 top-0 left-0 border-b border-gray-200 dark:border-gray-600">
+      <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+        <a href="./index.html" class="flex items-center">
+          <img src="./assets/img/logo.svg" class="h-8 mr-3" alt="Logo da Ada Tech e da Ifood mesclado">
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Adafood</span>
+        </a>
+
+
+      </div>
+    </nav>
+  </header>
+  <!-- FIM HEADER -->
+
+  <main>
+    <section class="min-h-screen flex items-center justify-center bg-white dark:bg-gray-900">
+      <div class="py-8 px-4 mx-auto max-w-2xl lg:py-16">
+        <h2 class="mb-4 text-xl font-bold text-gray-900 dark:text-white">Peça seu Adafood</h2>
+        <form action="#">
+          <div class="mb-6">
+            <div>
+              <label for="nome" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Nome</label>
+              <input type="text" id="nome"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-500 dark:focus:border-green-500"
+                placeholder="Seu nome" required>
+            </div>
+          </div>
+          <div class="grid gap-6 mb-6 md:grid-cols-2">
+            <div>
+              <label for="phone" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Telefone</label>
+              <input type="tel" id="phone"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-500 dark:focus:border-green-500"
+                placeholder="(14) 99999-9999" pattern="[0-9]{2}-[0-9]{4}-[0-9]{4}" required>
+            </div>
+            <div>
+              <label for="address" class="block mb-2 text-sm font-medium text-gray-900 dark:text-white">Endereço</label>
+              <input type="text" id="phone"
+                class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-green-500 focus:border-green-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-green-500 dark:focus:border-green-500"
+                placeholder="Seu enderenço" required>
+            </div>
+          </div>
+          <button type="submit"
+            class="text-white bg-green-700 hover:bg-green-800 focus:ring-4 focus:outline-none focus:ring-green-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-green-600 dark:hover:bg-green-700 dark:focus:ring-green-800">
+            Entrar
+          </button>
+        </form>
+    </section>
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="bg-white shadow dark:bg-gray-900">
+    <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+      <div class="sm:flex sm:items-center sm:justify-between">
+        <a href="#" class="flex items-center mb-4 sm:mb-0">
+          <img src="./assets/img/favicon.svg" class="h-8 mr-3" alt="Logo da Ada Tech e da Ifood mesclado" />
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Adafood</span>
+        </a>
+        <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-gray-500 sm:mb-0 dark:text-gray-400">
+          <li>
+            <a href="#" class="mr-4 hover:underline md:hover:text-green-700 md:mr-6 ">Sobre</a>
+          </li>
+          <li>
+            <a href="#" class="mr-4 hover:underline md:hover:text-green-700 md:mr-6">Política de Privacidade</a>
+          </li>
+          <li>
+            <a href="#" class="mr-4 hover:underline md:hover:text-green-700 md:mr-6 ">Termos de Serviço</a>
+          </li>
+          <li>
+            <a href="#" class="hover:underline md:hover:text-green-700">Contato</a>
+          </li>
+        </ul>
+      </div>
+      <hr class="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" />
+      <span class="block text-sm text-gray-500 sm:text-center dark:text-gray-400">© 2023 <a href="https://flowbite.com/"
+          class="hover:underline md:hover:text-green-700">Adafood</a>. Todos os direitos reservados.</span>
+    </div>
+  </footer>
+  <!-- FIM FOOTER -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.0.0/flowbite.min.js"></script>
+</body>
+
+</html>
